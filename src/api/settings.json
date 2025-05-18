@@ -1,0 +1,116 @@
+{
+  "name": "Finix-Api UI",
+  "version": "v1.0.0",
+  "description": "Simple and easy to use API.",
+  "bannerImage": "/src/banner.jpg",
+  "header": {
+    "status": "Online!"
+  },
+  "apiSettings": {
+    "creator": "Finix-AI",
+    "apikey": ["finix-api"]
+  },
+  "categories": [
+    {
+      "name": "AI (Artificial Intelligence)",
+      "items": [
+        {
+          "name": "LuminAI",
+          "desc": "Talk with LuminAI (AI chatbot)",
+          "path": "/ai/luminai?text=",
+          "status": "ready",
+          "params": {
+            "text": "Jawaban dari LuminAI untuk merespons dengan menggunakan bahasa Indonesia yang baik dan benar"
+          }      
+        },
+        {
+          "name": "BlackBox",
+          "desc": "Talk with BlackBox (AI chatbot)",
+          "path": "/ai/blackbox?text=",
+          "status": "ready",
+          "params": {
+            "text": "Jawaban dari BlackBox untuk merespons dengan menggunakan bahasa Indonesia yang baik dan benar"
+          }      
+        }
+      ]
+    },
+    {
+      "name": "Random",
+      "items": [
+        {
+          "name": "Blue Archive",
+          "desc": "Get random Blue Archive images",
+          "path": "/random/ba",
+          "status": "ready"
+        },
+        {
+          "name": "Neko V1",
+          "desc": "Get random Neko images",
+          "path": "/random/nsfw",
+          "status": "ready"
+        },
+        {
+          "name": "Waifu",
+          "desc": "Get random Waifu images",
+          "path": "/random/waifu",
+          "status": "ready"
+        }
+      ]
+    },
+    {
+      "name": "Downloader",
+      "items": [
+        {
+          "name": "YouTube MP3",
+          "desc": "Download MP3 dari video YouTube",
+          "path": "/download/ytmp3?url=",
+          "status": "ready",
+          "params": {
+            "url": "Masukkan url YouTube"
+          }
+        },
+        {
+          "name": "YouTube MP4",
+          "desc": "Download MP4 dari video YouTube",
+          "path": "/download/ytmp4?url=",
+          "status": "ready",
+          "params": {
+            "url": "Masukkan url YouTube"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Search Tools",
+      "items": [
+        {
+          "name": "YouTube",
+          "desc": "Search for YouTube videos",
+          "path": "/search/youtube?q=",
+          "status": "ready",
+          "params": {
+            "q": "Search query"
+          }
+        },
+        {
+          "name": "To Base64",
+          "desc": "Convert text to Base64",
+          "path": "/search/base64?text=",
+          "status": "ready",
+          "params": {
+            "text": "Teks yang ingin diubah ke base64"
+          }
+        },
+        {
+          "name": "Brat V1",
+          "desc": "Search using Brat",
+          "path": "/search/brat?q=",
+          "status": "ready",
+          "params": {
+            "q": "Search query"
+          }
+        }
+      ]
+    }               
+  ]
+}
